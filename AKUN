@@ -1,0 +1,328 @@
+SERVER SG
+
+======-XRAYS/VMESS-======
+Remarks     : tesvmess
+IP/Host     : 157.245.148.168
+Address     : duk6zu.natanvpn.my.id
+Port TLS    : 443
+Port No TLS : 80
+User ID     : 2a0c33b3-6931-449e-80bd-1a5add174c1f
+Alter ID    : 0
+Security    : auto
+Network     : ws
+Path        : /natanvpn
+Created     : 2022-07-15
+Expired     : 2022-07-26
+=========================
+Link TLS    : vmess://ICAgICAgewogICAgICAidiI6ICIyIiwKICAgICAgInBzIjogInRlc3ZtZXNzIiwKICAgICAgImFkZCI6ICJkdWs2enUubmF0YW52cG4ubXkuaWQiLAogICAgICAicG9ydCI6ICI0NDMiLAogICAgICAiaWQiOiAiMmEwYzMzYjMtNjkzMS00NDllLTgwYmQtMWE1YWRkMTc0YzFmIiwKICAgICAgImFpZCI6ICIwIiwKICAgICAgIm5ldCI6ICJ3cyIsCiAgICAgICJwYXRoIjogIi9uYXRhbnZwbiIsCiAgICAgICJ0eXBlIjogIm5vbmUiLAogICAgICAiaG9zdCI6ICIiLAogICAgICAidGxzIjogInRscyIKfQo=
+=========================
+Link No TLS : vmess://ICAgICAgewogICAgICAidiI6ICIyIiwKICAgICAgInBzIjogInRlc3ZtZXNzIiwKICAgICAgImFkZCI6ICJkdWs2enUubmF0YW52cG4ubXkuaWQiLAogICAgICAicG9ydCI6ICI4MCIsCiAgICAgICJpZCI6ICIyYTBjMzNiMy02OTMxLTQ0OWUtODBiZC0xYTVhZGQxNzRjMWYiLAogICAgICAiYWlkIjogIjAiLAogICAgICAibmV0IjogIndzIiwKICAgICAgInBhdGgiOiAiL25hdGFudnBuIiwKICAgICAgInR5cGUiOiAibm9uZSIsCiAgICAgICJob3N0IjogIiIsCiAgICAgICJ0bHMiOiAibm9uZSIKfQo=
+=========================
+root@Sg:~#
+
+======-XRAYS/VLESS-======
+Remarks     : tessvless
+IP/Host     : 157.245.148.168
+Address     : duk6zu.natanvpn.my.id
+Port TLS    : 443
+Port No TLS : 80
+User ID     : d4120df7-63a2-469d-bf5b-7f49de44b77b
+Encryption  : none
+Network     : ws
+Path        : /natanssh
+Created     : 2022-07-15
+Expired     : 2022-07-26                                                                                                
+=========================
+Link TLS    : vless://d4120df7-63a2-469d-bf5b-7f49de44b77b@duk6zu.natanvpn.my.id:443?path=/natanssh&security=tls&encryption=none&type=ws#tessvless                                                                                              
+=========================                                                                                               
+Link No TLS : vless://d4120df7-63a2-469d-bf5b-7f49de44b77b@duk6zu.natanvpn.my.id:80?path=/natanssh&encryption=none&type=ws#tessvless
+=========================
+Script By NATANVPN                                                                                                      
+root@Sg:~#
+
+=======-TROJAN-GO-=======
+Remarks    : testrojan
+IP/Host    : 157.245.148.168
+Address    : duk6zu.natanvpn.my.id
+Port       : 2087
+Key        : testrojan
+Encryption : none
+Path       : /trojango
+Created    : 2022-07-15
+Expired    : 2022-07-26
+=========================
+Link Trojan go /ws  : trojan-go://testrojan@duk6zu.natanvpn.my.id:2087/?sni=duk6zu.natanvpn.my.id&type=ws&host=duk6zu.natanvpn.my.id&path=/trojango&encryption=none#testrojan
+=========================                                                                                               
+Link Trojan gfw : trojan://testrojan@duk6zu.natanvpn.my.id:2087                                                         
+=========================                                                                                               
+Script By NATANVPN                                                                                                      
+root@Sg:~#
+
+============================
+L2TP/IPSEC PSK VPN
+============================
+IP/Host    : 157.245.148.168
+Domain     : duk6zu.natanvpn.my.id
+IPsec PSK  : natanvpn
+Username   : tessl2tp
+Password   : tessl2tp
+Created    : 2022-07-15
+Expired    : 2022-07-26
+============================                                                                                            
+Script By NATANVPN                                                                                                     
+root@Sg:~#
+
+======-SHADOWSOCKS-======
+IP/Host     : 157.245.148.168
+Domain      : duk6zu.natanvpn.my.id
+Port TLS    : 2443                                                                                                      
+Port No TLS : 3443
+Password    : tessss                                                                                                    
+Method      : aes-256-cfb
+Created     : 2022-07-15
+Expired     : 2022-07-26
+=========================
+Link TLS    : ss://YWVzLTI1Ni1jZmI6dGVzc3NzQDE1Ny4yNDUuMTQ4LjE2ODoyNDQz?plugin=obfs-local;obfs=tls;obfs-host=bing.com   
+=========================                                                                                               
+Link No TLS : ss://YWVzLTI1Ni1jZmI6dGVzc3NzQDE1Ny4yNDUuMTQ4LjE2ODozNDQz?plugin=obfs-local;obfs=http;obfs-host=bing.com
+=========================                                                                                               
+Script By NATANVPN                                                                                                     
+root@Sg:~#
+
+======-SHADOWSOCKSR-======
+IP/Host     : 157.245.148.168
+Domain      : duk6zu.natanvpn.my.id
+Port        : 1443                                                                                                      
+Password    : tessssr
+Encryption  : aes-256-cfb                                                                                               
+Protocol    : origin
+Obfs        : plain
+Max Device  : 2
+Created     : 2022-07-15
+Expired     : 2022-07-26                                                                                               
+==========================                                                                                              
+Link SSR    : ssr://OjE0NDM6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOmRHVnpjM056Y2cvb2Jmc3BhcmFtPQ==
+==========================                                                                                              
+Script By NATANVPN                                                                                                     
+root@Sg:~#
+
+============================
+PPTP VPN
+============================
+IP/Host   : 157.245.148.168                                                                                           
+Domain    : duk6zu.natanvpn.my.id
+Username  : tesspptp                                                                                                   
+Password  : tesspptp
+Created   : 2022-07-15
+Expired   : 2022-07-26
+============================
+Script By NATANVPN                                                                                                    
+root@Sg:~#
+
+============================
+SSTP VPN
+============================
+IP/Host   : 157.245.148.168                                                                                          
+Domain    : duk6zu.natanvpn.my.id
+Username  : tesssstp                                                                                                 
+Password  : tesssstp
+Port      : 444
+Cert      : http://157.245.148.168:89/server.crt
+Created   : 2022-07-15
+Expired   : 2022-07-26                                                                                                
+============================                                                                                          
+Script By NATANVPN
+root@Sg:~#
+
+======-WIREGUARD-======
+Remarks  : tesswg
+IP/Host  : 157.245.148.168
+Domain   : duk6zu.natanvpn.my.id                                                                                      
+Port     : 7070
+Created  : 2022-07-15                                                                                               
+Expired  : 2022-07-26
+=======================
+Link WG  : http://157.245.148.168:89/tesswg.conf
+=======================
+Script By NATANVPN                                                                                                   
+root@Sg:~#
+
+======-XRAYS/TROJAN-======
+Remarks  : tesstrojanxray
+IP/Host  : 157.245.148.168
+Address  : duk6zu.natanvpn.my.id                                                                                       
+Port     : 2083
+Key      : tesstrojanxray                                                                                              
+Created  : 2022-07-15
+Expired  : 2022-07-26
+==========================
+Link TR  : trojan://tesstrojanxray@duk6zu.natanvpn.my.id:2083
+==========================                                                                                           
+Script By NATANVPN                                                                                                   
+root@Sg:~#
+
+
+
+SERVER US
+
+
+============================
+L2TP/IPSEC PSK VPN
+============================
+IP/Host    : 161.35.114.100
+Domain     : 2ud5az.natanvpn.my.id
+IPsec PSK  : natanvpn
+Username   : l2tp
+Password   : l2tp
+Created    : 2022-07-15
+Expired    : 2022-07-26
+============================                                                                                         
+Script By NATANVPN
+root@Us:~#
+
+============================
+PPTP VPN
+============================
+IP/Host   : 161.35.114.100
+Domain    : 2ud5az.natanvpn.my.id
+Username  : pptp
+Password  : pptp
+Created   : 2022-07-15
+Expired   : 2022-07-26
+============================
+Script By NATANVPN                                                                            
+root@Us:~#
+
+============================
+SSTP VPN
+============================
+IP/Host   : 161.35.114.100
+Domain    : 2ud5az.natanvpn.my.id
+Username  : sstp
+Password  : sstp
+Port      : 444
+Cert      : http://161.35.114.100:89/server.crt
+Created   : 2022-07-15
+Expired   : 2022-07-26                                                                                                 
+============================                                                                                           
+Script By NATANVPN
+root@Us:~#
+
+======-WIREGUARD-======
+Remarks  : wg
+IP/Host  : 161.35.114.100
+Domain   : 2ud5az.natanvpn.my.id
+Port     : 7070
+Created  : 2022-07-15
+Expired  : 2022-07-26
+=======================
+Link WG  : http://161.35.114.100:89/wg.conf
+=======================
+Script By NATANVPN                                                                                       
+root@Us:~#
+
+======-SHADOWSOCKS-======
+IP/Host     : 161.35.114.100
+Domain      : 2ud5az.natanvpn.my.id
+Port TLS    : 2443                                                                                                  
+Port No TLS : 3443
+Password    : ss                                                                                                     
+Method      : aes-256-cfb
+Created     : 2022-07-15
+Expired     : 2022-07-26
+=========================
+Link TLS    : ss://YWVzLTI1Ni1jZmI6c3NAMTYxLjM1LjExNC4xMDA6MjQ0Mw==?plugin=obfs-local;obfs=tls;obfs-host=bing.com   
+=========================                                                                                          
+Link No TLS : ss://YWVzLTI1Ni1jZmI6c3NAMTYxLjM1LjExNC4xMDA6MzQ0Mw==?plugin=obfs-local;obfs=http;obfs-host=bing.com
+=========================
+Script By NATANVPN
+root@Us:~#
+
+======-SHADOWSOCKSR-======
+IP/Host     : 161.35.114.100
+Domain      : 2ud5az.natanvpn.my.id
+Port        : 1443                                                                                                   
+Password    : ssr
+Encryption  : aes-256-cfb                                                                                             
+Protocol    : origin
+Obfs        : plain
+Max Device  : 2
+Created     : 2022-07-15
+Expired     : 2022-07-26                                                                                           
+==========================                                                                                             
+Link SSR    : ssr://OjE0NDM6b3JpZ2luOmFlcy0yNTYtY2ZiOnBsYWluOmMzTnkvb2Jmc3BhcmFtPQ==
+==========================
+Script By NATANVPN
+root@Us:~#
+
+======-XRAYS/VMESS-======
+Remarks     : tesvmess
+IP/Host     : 161.35.114.100
+Address     : 2ud5az.natanvpn.my.id                                                                                    
+Port TLS    : 443
+Port No TLS : 80                                                                                                     
+User ID     : 5eab9a6e-d5df-4e29-972f-49c824980169
+Alter ID    : 0
+Security    : auto
+Network     : ws
+Path        : /natanvpn                                                                                              
+Created     : 2022-07-15                                                                                              
+Expired     : 2022-07-26
+=========================
+Link TLS    : vmess://ICAgICAgewogICAgICAidiI6ICIyIiwKICAgICAgInBzIjogInRlc3ZtZXNzIiwKICAgICAgImFkZCI6ICIydWQ1YXoubmF0YW52cG4ubXkuaWQiLAogICAgICAicG9ydCI6ICI0NDMiLAogICAgICAiaWQiOiAiNWVhYjlhNmUtZDVkZi00ZTI5LTk3MmYtNDljODI0OTgwMTY5IiwKICAgICAgImFpZCI6ICIwIiwKICAgICAgIm5ldCI6ICJ3cyIsCiAgICAgICJwYXRoIjogIi9uYXRhbnZwbiIsCiAgICAgICJ0eXBlIjogIm5vbmUiLAogICAgICAiaG9zdCI6ICIiLAogICAgICAidGxzIjogInRscyIKfQo=
+=========================
+Link No TLS : vmess://ICAgICAgewogICAgICAidiI6ICIyIiwKICAgICAgInBzIjogInRlc3ZtZXNzIiwKICAgICAgImFkZCI6ICIydWQ1YXoubmF0YW52cG4ubXkuaWQiLAogICAgICAicG9ydCI6ICI4MCIsCiAgICAgICJpZCI6ICI1ZWFiOWE2ZS1kNWRmLTRlMjktOTcyZi00OWM4MjQ5ODAxNjkiLAogICAgICAiYWlkIjogIjAiLAogICAgICAibmV0IjogIndzIiwKICAgICAgInBhdGgiOiAiL25hdGFudnBuIiwKICAgICAgInR5cGUiOiAibm9uZSIsCiAgICAgICJob3N0IjogIiIsCiAgICAgICJ0bHMiOiAibm9uZSIKfQo=
+=========================
+root@Us:~#
+
+======-XRAYS/VLESS-======
+Remarks     : tessvless
+IP/Host     : 161.35.114.100
+Address     : 2ud5az.natanvpn.my.id                                                                                 
+Port TLS    : 443
+Port No TLS : 80                                                                                                       
+User ID     : 12e15924-6aa0-4c99-a2b8-dc7c1e2b66a2
+Encryption  : none
+Network     : ws
+Path        : /natanssh
+Created     : 2022-07-15                                                                                          
+Expired     : 2022-07-26                                                                                             
+=========================
+Link TLS    : vless://12e15924-6aa0-4c99-a2b8-dc7c1e2b66a2@2ud5az.natanvpn.my.id:443?path=/natanssh&security=tls&encryption=none&type=ws#tessvless                                                                                           
+=========================                                                                                              
+Link No TLS : vless://12e15924-6aa0-4c99-a2b8-dc7c1e2b66a2@2ud5az.natanvpn.my.id:80?path=/natanssh&encryption=none&type=ws#tessvless
+=========================
+Script By NATANVPN                                                                                                 
+root@Us:~#
+
+======-XRAYS/TROJAN-======
+Remarks  : tesstrojanxray
+IP/Host  : 161.35.114.100
+Address  : 2ud5az.natanvpn.my.id                                                                                     
+Port     : 2083
+Key      : tesstrojanxray                                                                                             
+Created  : 2022-07-15
+Expired  : 2022-07-26
+==========================
+Link TR  : trojan://tesstrojanxray@2ud5az.natanvpn.my.id:2083
+==========================                                                                                           
+Script By NATANVPN                                                                                                    
+root@Us:~#
+
+=======-TROJAN-GO-=======
+Remarks    : tesstrojan
+IP/Host    : 161.35.114.100
+Address    : 2ud5az.natanvpn.my.id                                                                                
+Port       : 2087
+Key        : tesstrojan                                                                                         
+Encryption : none
+Path       : /trojango
+Created    : 2022-07-15
+Expired    : 2022-07-26
+=========================                                                                                           
+Link Trojan go /ws  : trojan-go://tesstrojan@2ud5az.natanvpn.my.id:2087/?sni=2ud5az.natanvpn.my.id&type=ws&host=2ud5az.natanvpn.my.id&path=/trojango&encryption=none#tesstrojan
+=========================                                                                                            
+Link Trojan gfw : trojan://tesstrojan@2ud5az.natanvpn.my.id:2087                                                       
+=========================                                                                                              
+Script By NATANVPN                                                                                                     
+root@Us:~#
