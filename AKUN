@@ -1,4 +1,48 @@
+SERVER HK
+
+======-XRAYS/VMESS-======
+Remarks     : vmessss                                                                                               
+IP/Host     : 20.187.94.72
+Address     : hk3.natanvpn.xyz
+Port TLS    : 443
+Port No TLS : 80
+User ID     : 0ff297ff-7e5e-4eda-b69e-e153b0eca0f6
+Alter ID    : 0
+Security    : auto
+Network     : ws
+Path        : /natanvpn
+Created     : 2022-07-19
+Expired     : 2022-08-13
+=========================
+Link TLS    : vmess://ICAgICAgewogICAgICAidiI6ICIyIiwKICAgICAgInBzIjogInZtZXNzc3MiLAogICAgICAiYWRkIjogImhrMy5uYXRhbnZwbi54eXoiLAogICAgICAicG9ydCI6ICI0NDMiLAogICAgICAiaWQiOiAiMGZmMjk3ZmYtN2U1ZS00ZWRhLWI2OWUtZTE1M2IwZWNhMGY2IiwKICAgICAgImFpZCI6ICIwIiwKICAgICAgIm5ldCI6ICJ3cyIsCiAgICAgICJwYXRoIjogIi9uYXRhbnZwbiIsCiAgICAgICJ0eXBlIjogIm5vbmUiLAogICAgICAiaG9zdCI6ICIiLAogICAgICAidGxzIjogInRscyIKfQo=
+=========================
+Link No TLS : vmess://ICAgICAgewogICAgICAidiI6ICIyIiwKICAgICAgInBzIjogInZtZXNzc3MiLAogICAgICAiYWRkIjogImhrMy5uYXRhbnZwbi54eXoiLAogICAgICAicG9ydCI6ICI4MCIsCiAgICAgICJpZCI6ICIwZmYyOTdmZi03ZTVlLTRlZGEtYjY5ZS1lMTUzYjBlY2EwZjYiLAogICAgICAiYWlkIjogIjAiLAogICAgICAibmV0IjogIndzIiwKICAgICAgInBhdGgiOiAiL25hdGFudnBuIiwKICAgICAgInR5cGUiOiAibm9uZSIsCiAgICAgICJob3N0IjogIiIsCiAgICAgICJ0bHMiOiAibm9uZSIKfQo=
+=========================
+root@Az3:~#
+
+======-XRAYS/VLESS-======
+Remarks     : vlesss                                                                                                 
+IP/Host     : 20.187.94.72
+Address     : hk3.natanvpn.xyz
+Port TLS    : 443
+Port No TLS : 80
+User ID     : eba81243-7042-46cf-8f79-c879ac85179e
+Encryption  : none
+Network     : ws
+Path        : /natanssh
+Created     : 2022-07-19
+Expired     : 2022-08-13                                                                                             
+=========================
+Link TLS    : vless://eba81243-7042-46cf-8f79-c879ac85179e@hk3.natanvpn.xyz:443?path=/natanssh&security=tls&encryption=none&type=ws#vlesss                                                                                                    
+=========================                                                                                             
+Link No TLS : vless://eba81243-7042-46cf-8f79-c879ac85179e@hk3.natanvpn.xyz:80?path=/natanssh&encryption=none&type=ws#vlesss
+=========================
+Script By NATANVPN                                                                                                   
+root@Az3:~#
+
+
 SERVER SG
+
 
 ======-XRAYS/VMESS-======
 Remarks     : tesvmess
